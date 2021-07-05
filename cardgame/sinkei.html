@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <audio id="audio" autoplay loop>
+        <source src="music/なんか胡散臭い….mp3">
+        
+      </audio>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊び方</title>
+    <link rel="stylesheet" href="css/sinkei.css">
+   
+    </style>
+</head>
+
+<body>
+  
+    <center><h2 class="title">遊び方</h2></center>
+
+    <div class="container">
+        <a onclick="sound2();"class="btn-border" target="blank">ググる</a>
+    </div>
+   
+    <div class="container">
+        <a onclick="sound();"class="btn-border">もどる</a>
+    </div>
+</body>
+   <script>
+       function sound(){
+    music3();
+    se = new Audio();
+    se.src = "music/cursor10.mp3";
+	se.play();
+	window.open('title.html');
+	}
+    function sound2(){
+    music3();
+    se = new Audio();
+    se.src = "music/cursor10.mp3";
+	se.play();
+	window.open('https://ja.wikipedia.org/wiki/%E7%A5%9E%E7%B5%8C%E8%A1%B0%E5%BC%B1');
+    }
+    function music3(){
+    audio = document.getElementById('audio');
+    audio.pause();
+  }
+   </script>
+</html>

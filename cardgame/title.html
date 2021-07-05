@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  	<meta http-equiv='X-UA-Compatible' content='ie=edge'>
+	<title>神経衰弱</title>
+	<link rel="stylesheet" href="css/title.css" type="text/css">
+</head>	
+<body>
+	<audio id="audio" autoplay loop>
+		<source src="music/R＆Bsweet.mp3">
+	
+	  </audio>
+	<div class="imgt">
+		<h1>神経 衰弱</h1>
+
+	</div>
+
+	<div class="level">
+		<p><button type="button" onclick="sound();" class='btn-square'>EASY</button></p>
+		<p><button type="button" onclick="sound2();" class='btn-square'>NORMAL</button></p>
+		<p><button type="button" onclick="sound3();" class='btn-square'>HARD</button></p>
+		<p><button type="button" onclick="sound4();" class='btn-square'>HOW TO PLAY</button></p>
+        
+	</div>
+	
+</body>
+<script>
+	
+	function sound(){
+	music4();
+    se = new Audio();
+    se.src = "music/cursor10.mp3";
+	se.play();
+	window.open('shokyu.html');
+	}
+	function sound2(){
+		music4();
+    se2 = new Audio();
+    se2.src = "music/cursor10.mp3";
+	se2.play();
+	window.open('tyukyu.html');
+	}
+	function sound3(){
+		music4();
+    se3 = new Audio();
+    se3.src = "music/cursor10.mp3";
+	se3.play();
+	window.open('zyoukyu.html');
+	}
+	function sound4(){
+		music4();
+    se4 = new Audio();
+    se4.src = "music/cursor10.mp3";
+	se4.play();
+	window.open('sinkei.html');
+	}
+	
+	function music4(){
+    audio = document.getElementById('audio');
+    audio.pause();
+  }
+
+	
+</script>
+</html>

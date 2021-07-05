@@ -1,0 +1,58 @@
+﻿
+.container {
+  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', '繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3', '繝｡繧､繝ｪ繧ｪ', Meiryo, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.btn-border {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #9ec34b;
+  font-size: 16px;
+  color: #9ec34b;
+  text-decoration: none;
+  font-weight: bold;
+  padding:40px 50px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn-border:hover {
+  background-color: #9ec34b;
+  border-color: #cbe585;
+  color: #FFF;
+}
+
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+h1 {
+font-family: monospace; 
+width: 11ch;
+border-right: .08em solid;
+overflow: hidden;
+font-size: 4em;
+white-space: nowrap;
+animation: typing 3s steps(20, end), caret .5s step-end infinite;
+}
+";
+
+// Settings
+$color1 : #56baff;
+$ral : "Raleway";
+$titi : "Titillium Web";
+
+body {
+  background: black;
+  color:white;
+}
+
+
+  }
+  100% {
+    transform:scaleY(1);
+    transform-origin:0 bottom 0;
+  }
+}

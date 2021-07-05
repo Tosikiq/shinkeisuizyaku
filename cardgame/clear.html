@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sinkei.css">
+   
+    <title>CLEAR!</title>
+</head>
+<body>
+    <center><h1>CLEAR!</h1></center>
+    <div class="container">
+        <a onclick="sound();" class="btn-border">next stage</a>
+    </div>
+    <div class="container">
+        <a onclick="sound2();" class="btn-border">back home</a>
+    </div>
+
+</body>
+<script>
+function sound(){
+    se = new Audio();
+    se.src = "music/cursor10.mp3";
+	se.play();
+	window.open('tyukyu.html');
+    }
+    function sound2(){
+    se = new Audio();
+    se.src = "music/cursor10.mp3";
+	se.play();
+	window.open('title.html');
+	}
+</script>
+</html>

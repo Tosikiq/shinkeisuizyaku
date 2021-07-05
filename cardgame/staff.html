@@ -1,0 +1,59 @@
+
+<script>
+
+    function scroll()
+    {
+      scrollBy(0,2);
+      setTimeout("scroll()",50);
+    }
+    
+    </script>
+<script>
+
+function winOpen()
+{
+  var w=(screen.width-640)/2;
+  var h=(screen.height-480)/2;
+  
+  window.open("staffroll.html","sub","width=640,height=480,"+
+    "left="+w+",top="+h+",scrollbars=no,menubar=no,toolbar=no");
+}
+function PlaySound(){
+    audioElem = new Audio();
+    audioElem.src = "music/pien.mp3";
+    audioElem.play();
+  
+  }
+  function sound2(){
+          audioElem.pause();
+            se = new Audio();
+            se.src = "music/cursor10.mp3";
+            se.play();
+            window.open('title.html');
+        }
+</script>
+
+<link rel="stylesheet" href="css/staffl.css">
+<body onload="scroll();PlaySound();">
+<br><br><br><br><br><br><br><br><br><br>
+STAFF<br>
+<br><br><br>
+BGM・効果音<br>効果音ラボ<br><br><br><br>
+タイトル画面<br>MUROSAKA TAIKI<br><br><br>
+遊び方画面<br>OKAMOTO REO<br><br><br>
+ゲーム<br>UNO TOSHIKI<br><br><br>
+クリア画面<br>OKAMOTO REO<br><br><br><br>
+パワーポイント(企画版)<br>UNO TOSHIKI<br><br><br><br>
+パワーポイント(完成版)<br>MUROSAKA TAIKI<br><br><br><br>
+企画担当<br>GANSUKE<br><br><br><br>
+音楽担当<br>UNO TOSHIkI<br><br><br>
+SPESIAL THANKS<br>GANSUKE<br><br><br>
+<br>PIEN<br><br><br>
+<br>AND YOU・・・<br><br><br><br>
+リーダー<br>UNO TOSHIKI<br><br><br><br>
+
+<br><br><br>
+<span style="font-size:80pt">THANK YOU FOR PLAYING</span><br><br><br>
+<p><button type="button" onclick="sound2();" class='btn-square'>戻る</button></p>
+<br><br><br><br><br><br><br><br><br><br>
+</body>

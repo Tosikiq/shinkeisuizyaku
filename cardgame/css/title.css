@@ -1,0 +1,51 @@
+body{
+    /*背景色*/
+    background-image: url("jpeg/tramp.jpeg");
+    background-size: cover;               /*全画面*/
+    background-attachment: fixed;         /* 固定 */
+    background-position: center center;   /* 縦横中央 */
+}
+
+div.imgt{
+    position: absolute;
+    top: 1em;
+    left: 30em;
+    padding: 0px;
+}
+h1{
+    font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ','Meiryo','ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    color: #008000;
+    font-size: 4em;
+    line-height: 90%;
+    margin: 0px;
+}
+
+div.level{
+    position: absolute;
+    top: 3em;
+    left: 17em;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 2em;
+    line-height: 170%;
+    font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ','Meiryo','ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    color:#cccccc;
+    background-color:black; 
+}
+.btn-square{
+    display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/main3.css">
+<script src="js/zyoukyuu.js"></script>
+<title>神経衰弱</title>
+</head>
+<body>
+  <img src="images/logo5.png">
+  <a><button type="button" onclick="back();" class='button'id="button">戻る</button></a>
+  <table id="table" border="1"></table>
+  <div class="box5">
+    <div id="result">経過秒数: </div>
+  <div id="count">ミス回数: 0回 </div>
+  <div id  ="residue">残り枚数:28枚</div>
+</div>
+</body>
+<audio id="audio" autoplay loop>
+  <source src="music/日常ブルース.mp3">
+  
+</audio>
+<script>
+  function PlaySound(){
+    audioElem = new Audio();
+    audioElem.src = "music/pien.mp3";
+    audioElem.play();
+  
+  }
+  function music(){
+    musica = new Audio();
+    musica.src = "music/日常ブルース.mp3";
+    musica.play();
+
+  }
+  function music2(){
+    musicb = new Audio();
+    musicb.src = "music/tin1.mp3";
+    musicb.play();
+
+  }
+  function music3(){
+    musicc = new Audio();
+    musicc.src = "music/people-performance-cheer1.mp3";
+    musicc.play();
+
+  }
+  function music4(){
+    audio = document.getElementById('audio');
+    audio.pause();
+  }
+  function back(){
+    audio = document.getElementById('audio');
+    audio.pause();
+    window.open('title.html');
+  }
+  </script>
+  
+</html>

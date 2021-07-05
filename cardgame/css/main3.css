@@ -1,0 +1,59 @@
+body{
+    
+  background-color: red;
+    
+    }
+    
+    table{
+    
+      margin:10px auto;
+    
+    }
+    
+    td.card{
+    
+      width:80px;
+    
+      height:120px;
+    
+      margin:2px;
+    
+      background-size:cover;
+    
+    }
+    
+    /*以下を追記*/
+    
+    td.card.back{
+    
+      background-image:url(../images/card_back.png) !important;
+    
+    }
+    table, th, td {
+      border: none;
+  }
+  .box5 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+    background-color: aqua;
+}
+.button {
+  display       : inline-block;
+  border-radius : 24%;          /* 角丸       */
+  font-size     : 13pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 14px 12px;   /* 余白       */
+  background    : #000000;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 7px 7px 4px #666666;  /* 影の設定 */
+  border        : 2px solid #000000;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000000;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
